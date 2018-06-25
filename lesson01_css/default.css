@@ -29,7 +29,26 @@ body {
 
 .header-btn {
     width: 200px;
+    height: 100px;
     float: left;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 10px;
+    -webkit-transition: font-size .2s;
+    -moz-transition: font-size .2s;
+    -o-transition: font-size .2s;
+    transition: font-weight .2s ease-in;
+    transition: font-size .2s;
+}
+
+.header-btn.clicked {
+    font-weight: 800;
+    font-size: 30px;
+    -webkit-transition: font-size .2s;
+    -moz-transition: font-size .2s;
+    -o-transition: font-size .2s;
+    transition: font-weight .2s ease-in;
+    transition: font-size .2s;
 }
 
 /*.div-content {*/
